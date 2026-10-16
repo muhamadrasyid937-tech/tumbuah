@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Rejang&display=swap');
 /* Rejang Heritage UI — local stylesheet, no framework or runtime dependency. */
+*,*::before,*::after{box-sizing:border-box}
 :root{
   --paper:#F7F0E4; --paper-deep:#EEE1CC; --surface:#FFFBF4; --surface-2:#F7EEDD;
   --ink:#392628; --ink-soft:#78675D; --wine:#70292E; --wine-dark:#4C2024;
@@ -458,3 +459,9 @@ button .ui-icon,a .ui-icon{pointer-events:none}
   .app-header{padding-inline:11px}.header-top{gap:8px}.header-title h1{font-size:1rem}.header-title p{font-size:.61rem}.app-main{padding-inline:10px}.feature-grid,.culture-grid{gap:8px}.feature-card{padding:12px 10px}.feature-desc{font-size:.69rem}.mobile-bottom-nav{padding-left:3px;padding-right:3px}.mobile-bottom-nav span{font-size:.58rem}.mobile-drawer{width:min(91vw,360px)}
 }
 @media(prefers-reduced-motion:reduce){.mobile-drawer,.mobile-menu-scrim,.tab-panel.aktif{transition:none!important;animation:none!important}}
+
+
+/* Fix: prevent hero actions from overflowing on narrow mobile screens */
+.hero-actions{width:100%;min-width:0}
+.hero-actions .action-primary,.hero-actions .action-secondary{box-sizing:border-box;width:100%;max-width:100%;min-width:0}
+.hero-actions>*{min-width:0}

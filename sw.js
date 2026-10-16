@@ -1,4 +1,4 @@
-const CACHE_NAME = "tumbuah-mobile-v1";
+const CACHE_NAME = "tumbuah-mobile-v2";
 // Resolve the project path at runtime so GitHub Pages works for /tumbuah/ or other repo names.
 const BASE = new URL("./", self.location.href).pathname;
 const APP_SHELL = [
