@@ -2,19 +2,19 @@
 <html lang="id">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>TUMBUAH — Bahasa Rejang & Aksara Kaganga</title>
 <meta name="description" content="TUMBUAH adalah platform pembelajaran Bahasa Rejang dan Aksara Kaganga dengan kamus lima dialek, latihan aksara, kuis, dan konten budaya.">
-<link rel="manifest" href="/kamus-bahasa-rejang/manifest.json">
+<link rel="manifest" href="./manifest.json">
 <meta name="theme-color" content="#552124">
-<link rel="icon" type="image/png" sizes="192x192" href="/kamus-bahasa-rejang/icons/icon-192.png">
-<link rel="apple-touch-icon" href="/kamus-bahasa-rejang/icons/icon-192.png">
+<link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png">
+<link rel="apple-touch-icon" href="./icons/icon-192.png">
 
 <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
 <svg class="icon-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
-<symbol id="i-home" viewBox="0 0 24 24"><path d="m3 10 9-7 9 7"/><path d="M5 9v11h14V9"/><path d="M9 20v-6h6v6"/></symbol>
+<symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol><symbol id="i-x" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol><symbol id="i-home" viewBox="0 0 24 24"><path d="m3 10 9-7 9 7"/><path d="M5 9v11h14V9"/><path d="M9 20v-6h6v6"/></symbol>
 <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></symbol>
 <symbol id="i-book-open" viewBox="0 0 24 24"><path d="M3 5.5c3.7-1.4 6.7-.8 9 1.4v13c-2.3-2.2-5.3-2.8-9-1.4z"/><path d="M21 5.5c-3.7-1.4-6.7-.8-9 1.4v13c2.3-2.2 5.3-2.8 9-1.4z"/></symbol>
 <symbol id="i-arrows-left-right" viewBox="0 0 24 24"><path d="M4 8h15"/><path d="m15 4 4 4-4 4"/><path d="M20 16H5"/><path d="m9 12-4 4 4 4"/></symbol>
@@ -74,6 +74,9 @@
       <p>Platform Pembelajaran Bahasa Rejang & Aksara Kaganga</p>
       <div class="kaganga-display">ꤰꤱꤲ ꤳꤴꤵ ꤶꤷꤸ</div>
     </div>
+    <button type="button" class="mobile-menu-trigger" id="mobileMenuTrigger" aria-label="Buka menu" aria-controls="mobileDrawer" aria-expanded="false" onclick="openMobileMenu()">
+      <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-menu"></use></svg>
+    </button>
   </div>
   <nav aria-label="Navigasi utama">
     <button class="aktif" data-tab="beranda" onclick="gantiTab('beranda',this)"><span class="nav-symbol"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-home"></use></svg></span> Beranda</button>
@@ -86,6 +89,26 @@
     <button data-tab="tentang" onclick="gantiTab('tentang',this)"><span class="nav-symbol"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-info"></use></svg></span> Tentang</button>
   </nav>
 </header>
+
+<div class="mobile-menu-scrim" id="mobileMenuScrim" onclick="closeMobileMenu()" aria-hidden="true"></div>
+<aside class="mobile-drawer" id="mobileDrawer" aria-label="Menu TUMBUAH" aria-hidden="true" inert>
+  <div class="mobile-drawer-head">
+    <div class="mobile-drawer-brand"><span class="mobile-drawer-mark"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-flower"></use></svg></span><div><strong>Jelajahi TUMBUAH</strong><small>Bahasa · Aksara · Budaya</small></div></div>
+    <button type="button" class="mobile-drawer-close" aria-label="Tutup menu" onclick="closeMobileMenu()"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-x"></use></svg></button>
+  </div>
+  <div class="mobile-drawer-section-label">BELAJAR</div>
+  <div class="mobile-drawer-list">
+    <button type="button" class="mobile-drawer-item aktif" data-tab="beranda" aria-current="page" onclick="navigateMobile('beranda')"><span class="drawer-item-icon"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-home"></use></svg></span><span><strong>Beranda</strong><small>Ringkasan dan pintasan fitur</small></span><svg class="ui-icon drawer-chevron" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-chevron-right"></use></svg></button>
+    <button type="button" class="mobile-drawer-item" data-tab="kamus" onclick="navigateMobile('kamus')"><span class="drawer-item-icon"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-search"></use></svg></span><span><strong>Kamus Rejang</strong><small>Cari kata dan bandingkan dialek</small></span><svg class="ui-icon drawer-chevron" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-chevron-right"></use></svg></button>
+    <button type="button" class="mobile-drawer-item" data-tab="kaganga" onclick="navigateMobile('kaganga')"><span class="drawer-item-icon kaganga-drawer-icon">ꤰ</span><span><strong>Aksara Kaganga</strong><small>Kenali bentuk dan tanda aksara</small></span><svg class="ui-icon drawer-chevron" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-chevron-right"></use></svg></button>
+    <button type="button" class="mobile-drawer-item" data-tab="konverter" onclick="navigateMobile('konverter')"><span class="drawer-item-icon"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrows-left-right"></use></svg></span><span><strong>Konverter</strong><small>Latin dan Aksara Kaganga</small></span><svg class="ui-icon drawer-chevron" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-chevron-right"></use></svg></button>
+    <button type="button" class="mobile-drawer-item" data-tab="trace" onclick="navigateMobile('trace')"><span class="drawer-item-icon"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-pen-line"></use></svg></span><span><strong>Aksara Trace</strong><small>Latihan mengikuti pola goresan</small></span><svg class="ui-icon drawer-chevron" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-chevron-right"></use></svg></button>
+    <button type="button" class="mobile-drawer-item" data-tab="budaya" onclick="navigateMobile('budaya')"><span class="drawer-item-icon"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-flower"></use></svg></span><span><strong>Info Budaya</strong><small>Warisan dan cerita Rejang</small></span><svg class="ui-icon drawer-chevron" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-chevron-right"></use></svg></button>
+    <button type="button" class="mobile-drawer-item" data-tab="kuis" onclick="navigateMobile('kuis')"><span class="drawer-item-icon"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-circle-help"></use></svg></span><span><strong>Kuis</strong><small>Uji pemahaman dengan latihan singkat</small></span><svg class="ui-icon drawer-chevron" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-chevron-right"></use></svg></button>
+    <button type="button" class="mobile-drawer-item" data-tab="tentang" onclick="navigateMobile('tentang')"><span class="drawer-item-icon"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-info"></use></svg></span><span><strong>Tentang TUMBUAH</strong><small>Tujuan, sumber, dan lisensi</small></span><svg class="ui-icon drawer-chevron" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-chevron-right"></use></svg></button>
+  </div>
+  <div class="mobile-drawer-note"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-cloud-off"></use></svg><span><strong>Dirancang untuk akses luring</strong><small>Beberapa aset perlu dimuat saat online terlebih dahulu.</small></span></div>
+</aside>
 
 <main class="app-main">
 
@@ -354,6 +377,14 @@
   </section>
 </div>
 </main>
+
+<nav class="mobile-bottom-nav" aria-label="Navigasi cepat">
+  <button type="button" class="aktif" data-tab="beranda" aria-current="page" onclick="navigateMobile('beranda')"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-home"></use></svg><span>Beranda</span></button>
+  <button type="button" data-tab="kamus" onclick="navigateMobile('kamus')"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-search"></use></svg><span>Kamus</span></button>
+  <button type="button" data-tab="trace" onclick="navigateMobile('trace')"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-pen-line"></use></svg><span>Latihan</span></button>
+  <button type="button" data-tab="budaya" onclick="navigateMobile('budaya')"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-flower"></use></svg><span>Budaya</span></button>
+  <button type="button" class="mobile-bottom-menu" onclick="openMobileMenu()"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-menu"></use></svg><span>Menu</span></button>
+</nav>
 
 <footer class="app-footer"><div class="footer-mark"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-flower"></use></svg></div><p><strong>TUMBUAH</strong> · Bahasa Rejang & Aksara Kaganga</p><p class="footer-note">Belajar, mendokumentasikan, dan menjaga warisan budaya bersama.</p><p class="footer-script">ꤰꤱꤲ · ꤳꤴꤵ · ꤶꤷꤸ</p></footer>
 
@@ -1764,19 +1795,56 @@ function uiIcon(name, extra=''){ return `<svg class="ui-icon ${extra}" viewBox="
 // ============================================================
 // NAVIGASI
 // ============================================================
+function openMobileMenu(){
+  const drawer=document.getElementById('mobileDrawer');
+  const scrim=document.getElementById('mobileMenuScrim');
+  const trigger=document.getElementById('mobileMenuTrigger');
+  if(!drawer||!scrim)return;
+  drawer.classList.add('is-open'); scrim.classList.add('is-open');
+  drawer.setAttribute('aria-hidden','false'); drawer.removeAttribute('inert');
+  if(trigger)trigger.setAttribute('aria-expanded','true');
+  document.body.classList.add('mobile-menu-open');
+  setTimeout(()=>drawer.querySelector('button[data-tab]')?.focus({preventScroll:true}),80);
+}
+function closeMobileMenu(restoreFocus=true){
+  const drawer=document.getElementById('mobileDrawer');
+  const scrim=document.getElementById('mobileMenuScrim');
+  const trigger=document.getElementById('mobileMenuTrigger');
+  if(!drawer||!scrim)return;
+  drawer.classList.remove('is-open'); scrim.classList.remove('is-open');
+  drawer.setAttribute('aria-hidden','true'); drawer.setAttribute('inert','');
+  if(trigger)trigger.setAttribute('aria-expanded','false');
+  document.body.classList.remove('mobile-menu-open');
+  if(restoreFocus&&trigger&&window.matchMedia('(max-width: 760px)').matches)trigger.focus({preventScroll:true});
+}
+function navigateMobile(id){
+  if(id==='trace'){ window.location.href='./trace.html'; return; }
+  if(document.getElementById('tab-'+id)){gantiTab(id);return;}
+  window.location.href='./index.html#tab-'+encodeURIComponent(id);
+}
+window.addEventListener('keydown',event=>{if(event.key==='Escape')closeMobileMenu(false)});
+
 function gantiTab(id, btn){
   const target = document.getElementById('tab-' + id);
   if (!target) return;
   document.querySelectorAll('.tab-panel').forEach(p=>p.classList.remove('aktif'));
-  document.querySelectorAll('.app-header nav button').forEach(b=>b.classList.remove('aktif'));
   target.classList.add('aktif');
-  const navBtn = btn || document.querySelector('.app-header nav button[data-tab="' + id + '"]');
-  if (navBtn) navBtn.classList.add('aktif');
+  document.querySelectorAll('[data-tab]').forEach(b=>{
+    const active=b.dataset.tab===id;
+    b.classList.toggle('aktif',active);
+    if(b.matches('.app-header nav button, .mobile-bottom-nav button, .mobile-drawer-item')){
+      if(active)b.setAttribute('aria-current','page'); else b.removeAttribute('aria-current');
+    }
+  });
+  const mobileMore=document.querySelector('.mobile-bottom-menu');
+  if(mobileMore)mobileMore.classList.toggle('aktif',!['beranda','kamus','trace','budaya'].includes(id));
+  closeMobileMenu(false);
   if(id==='kuis')initKuis();
   if(id==='kaganga')renderKaganga();
   if(id==='konverter')renderPanduan();
-  if(id==='kamus') setTimeout(()=>document.getElementById('searchInput')?.focus({preventScroll:true}), 80);
-  if(id!=='beranda') window.scrollTo({top:0, behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});
+  try { if(location.hash !== '#tab-'+id) history.replaceState(null,'','#tab-'+id); } catch(_) {}
+  if(id==='kamus' && !window.matchMedia('(max-width: 760px)').matches) setTimeout(()=>document.getElementById('searchInput')?.focus({preventScroll:true}), 80);
+  window.scrollTo({top:0, behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});
 }
 
 // ============================================================
@@ -2080,13 +2148,21 @@ setMode('huruf');
 // Daftarkan service worker PWA Kamus Rejang.
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
-    navigator.serviceWorker.register("/kamus-bahasa-rejang/sw.js", {
-      scope: "/kamus-bahasa-rejang/"
+    const appBase = new URL("./", document.baseURI);
+    navigator.serviceWorker.register(new URL("sw.js", appBase).href, {
+      scope: appBase.pathname
     }).catch(error => {
       console.error("PWA: service worker gagal didaftarkan", error);
     });
   });
 }
+</script>
+<script>
+// Deep-link internal tabs, e.g. when returning from the Trace page.
+(() => {
+  const match = location.hash.match(/^#tab-(beranda|kamus|kaganga|konverter|budaya|kuis|tentang)$/);
+  if (match && document.getElementById('tab-' + match[1])) gantiTab(match[1]);
+})();
 </script>
 </body>
 </html>

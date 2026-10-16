@@ -1,5 +1,6 @@
-const CACHE_NAME = "kamus-rejang-v5-tumbuah-ui";
-const BASE = "/kamus-bahasa-rejang/";
+const CACHE_NAME = "tumbuah-mobile-v1";
+// Resolve the project path at runtime so GitHub Pages works for /tumbuah/ or other repo names.
+const BASE = new URL("./", self.location.href).pathname;
 const APP_SHELL = [
   BASE,
   BASE + "index.html",
@@ -23,7 +24,7 @@ self.addEventListener("activate", event => {
   event.waitUntil(
     caches.keys()
       .then(keys => Promise.all(keys
-        .filter(key => key.startsWith("kamus-rejang-") && key !== CACHE_NAME)
+        .filter(key => (key.startsWith("kamus-rejang-") || key.startsWith("tumbuah-")) && key !== CACHE_NAME)
         .map(key => caches.delete(key))))
       .then(() => self.clients.claim())
   );
