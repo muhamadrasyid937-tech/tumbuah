@@ -1,0 +1,45 @@
+{
+  "name": "tumbuah-rejang-learning-app",
+  "version": "1.0.0",
+  "description": "TUMBUAH \u2014 platform pembelajaran Bahasa Rejang dan Aksara Kaganga",
+  "main": "locale/rej.json",
+  "keywords": [
+    "rejang",
+    "bahasa-rejang",
+    "kaganga",
+    "bengkulu",
+    "i18n",
+    "locale",
+    "kamus",
+    "dictionary",
+    "indonesia",
+    "regional-language"
+  ],
+  "author": {
+    "name": "Hariyanto, S.Sos",
+    "url": "https://dipayang.idcrypt.xyz/profil",
+    "github": "https://github.com/hariyantodipayang"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hariyantodipayang/kamus-bahasa-rejang.git"
+  },
+  "homepage": "https://github.com/hariyantodipayang/kamus-bahasa-rejang",
+  "exports": {
+    ".": "./locale/rej.json",
+    "./en": "./locale/en.json",
+    "./id": "./locale/id.json",
+    "./rej": "./locale/rej.json",
+    "./rej-Rjng": "./locale/rej-Rjng.json",
+    "./kosakata": "./data/kosakata.json",
+    "./kaganga": "./data/kaganga.json"
+  },
+  "files": [
+    "locale/",
+    "data/",
+    "index.html",
+    "README.md",
+    "LICENSE"
+  ]
+}
