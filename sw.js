@@ -1,4 +1,4 @@
-const CACHE_NAME = "tumbuah-mobile-v2";
+const CACHE_NAME = "tumbuah-mobile-v3";
 // Resolve the project path at runtime so GitHub Pages works for /tumbuah/ or other repo names.
 const BASE = new URL("./", self.location.href).pathname;
 const APP_SHELL = [
@@ -9,7 +9,15 @@ const APP_SHELL = [
   BASE + "manifest.json",
   BASE + "icons/icon-192.png",
   BASE + "icons/icon-512.png",
-  BASE + "icons/icon.svg"
+  BASE + "icons/icon.svg",
+  // Data terstruktur juga dipra-cache untuk mendukung penggunaan luring.
+  BASE + "data/kosakata-berendo.json",
+  BASE + "data/kosakata.json",
+  BASE + "data/kaganga.json",
+  BASE + "locale/en.json",
+  BASE + "locale/id.json",
+  BASE + "locale/rej.json",
+  BASE + "locale/rej-Rjng.json"
 ];
 
 self.addEventListener("install", event => {
@@ -55,6 +63,26 @@ self.addEventListener("fetch", event => {
   }
 
   if (url.origin !== self.location.origin) return;
+
+  // Data/locale: network-first saat online agar konten bisa diperbarui,
+  // tetapi gunakan versi cache saat offline.
+  const isContentData = url.pathname.startsWith(BASE + "data/") ||
+                        url.pathname.startsWith(BASE + "locale/");
+  if (isContentData) {
+    event.respondWith((async () => {
+      const cache = await caches.open(CACHE_NAME);
+      try {
+        const response = await fetch(request);
+        if (response && response.ok) {
+          await cache.put(request, response.clone());
+        }
+        return response;
+      } catch (_) {
+        return (await cache.match(request)) || Response.error();
+      }
+    })());
+    return;
+  }
 
   const isAppNavigation = request.mode === "navigate" && url.pathname.startsWith(BASE);
   if (isAppNavigation) {
