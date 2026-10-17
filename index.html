@@ -105,6 +105,9 @@
     <button data-tab="jelajah" onclick="gantiTab('jelajah',this)"><span class="nav-symbol"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-camera"></use></svg></span> Jelajah AR</button>
     <button data-tab="kuis" onclick="gantiTab('kuis',this)"><span class="nav-symbol"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-circle-help"></use></svg></span> Kuis</button>
     <button data-tab="tentang" onclick="gantiTab('tentang',this)"><span class="nav-symbol"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-info"></use></svg></span> Tentang</button>
+    <button data-tab="audio" onclick="gantiTab('audio',this)"><span class="nav-symbol"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-headphones"></use></svg></span> Audio</button>
+    <button data-tab="jelajah" onclick="gantiTab('jelajah',this)"><span class="nav-symbol"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-camera"></use></svg></span> Jelajah AR</button>
+    <button data-tab="evaluasi" onclick="gantiTab('evaluasi',this)"><span class="nav-symbol"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-clipboard-check"></use></svg></span> Evaluasi</button>
   </nav>
 </header>
 
@@ -401,6 +404,7 @@
       <button type="button" class="chip" data-culture-filter="Alam & Lingkungan" aria-pressed="false">Alam &amp; lingkungan</button>
       <button type="button" class="chip" data-culture-filter="Rumah & Keseharian" aria-pressed="false">Rumah &amp; keseharian</button>
     </div>
+    <div class="culture-data-notice" id="cultureDataNotice" role="status" aria-live="polite" hidden></div>
     <div class="prototype-culture-grid" id="prototypeCultureGrid" aria-live="polite"><div class="prototype-loading"><span class="loader-dot"></span> Memuat katalog lokal…</div></div>
     <div class="culture-catalog-footnote"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-info"></use></svg><p>Konten yang bersumber dari publikasi belum otomatis berarti sudah divalidasi oleh komunitas. Informasi sensitif atau lisan memerlukan persetujuan narasumber dan peninjauan penutur/tokoh adat sebelum dinyatakan terverifikasi.</p></div>
   </section>
