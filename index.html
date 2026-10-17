@@ -11,6 +11,7 @@
 <link rel="apple-touch-icon" href="./icons/icon-192.png">
 
 <link rel="stylesheet" href="./styles.css">
+<link rel="stylesheet" href="./prototype.css">
 </head>
 <body>
 <svg class="icon-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
@@ -65,6 +66,22 @@
 <symbol id="i-tag" viewBox="0 0 24 24"><path d="M20 13 13 20 3 10V4h6z"/><circle cx="7.5" cy="7.5" r="1"/></symbol>
 <symbol id="i-circle-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.6 2.6 0 1 1 4.4 1.9c-1.1 1-1.9 1.3-1.9 3M12 17h.01"/></symbol>
 <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 20V4m-7 7 7-7 7 7"/></symbol>
+
+<symbol id="i-camera" viewBox="0 0 24 24"><path d="M4 7h3l1.5-2h7L17 7h3a1.5 1.5 0 0 1 1.5 1.5v10A1.5 1.5 0 0 1 20 20H4a1.5 1.5 0 0 1-1.5-1.5v-10A1.5 1.5 0 0 1 4 7Z"/><circle cx="12" cy="13" r="4"/></symbol>
+<symbol id="i-scan-line" viewBox="0 0 24 24"><path d="M4 8V5a1 1 0 0 1 1-1h3M16 4h3a1 1 0 0 1 1 1v3M20 16v3a1 1 0 0 1-1 1h-3M8 20H5a1 1 0 0 1-1-1v-3M4 12h16"/><path d="M8 9h8M8 15h8"/></symbol>
+<symbol id="i-mic" viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3M8.5 21h7"/></symbol>
+<symbol id="i-headphones" viewBox="0 0 24 24"><path d="M3 13v-1a9 9 0 0 1 18 0v1"/><path d="M3 13h4v7H5a2 2 0 0 1-2-2zM21 13h-4v7h2a2 2 0 0 0 2-2z"/></symbol>
+<symbol id="i-clipboard-check" viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="16" rx="2"/><path d="M9 5V3h6v2M8 12l2.5 2.5L16 9"/></symbol>
+<symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 17v3h16v-3"/></symbol>
+<symbol id="i-file-check" viewBox="0 0 24 24"><path d="M6 3h8l5 5v13H6zM14 3v5h5"/><path d="m9 15 2 2 4-4"/></symbol>
+<symbol id="i-book-marked" viewBox="0 0 24 24"><path d="M5 4h14v17l-7-4-7 4z"/><path d="M9 8h6"/></symbol>
+<symbol id="i-filter" viewBox="0 0 24 24"><path d="M4 5h16l-6.5 7.5V19l-3 1v-7.5Z"/></symbol>
+<symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol>
+<symbol id="i-send" viewBox="0 0 24 24"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></symbol>
+<symbol id="i-square-pen" viewBox="0 0 24 24"><path d="M12 20H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v6"/><path d="m14 18 6-6 2 2-6 6-3 1z"/></symbol>
+<symbol id="i-lock-keyhole" viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3M12 14v3"/></symbol>
+<symbol id="i-list-check" viewBox="0 0 24 24"><path d="M9 6h12M9 12h12M9 18h12M3 6l1.5 1.5L7 5M3 12l1.5 1.5L7 11M3 18l1.5 1.5L7 17"/></symbol>
+<symbol id="i-map" viewBox="0 0 24 24"><path d="m3 6 6-3 6 3 6-3v15l-6 3-6-3-6 3zM9 3v15M15 6v15"/></symbol>
 </svg>
 <header class="app-header">
   <div class="header-top">
@@ -85,6 +102,7 @@
     <button data-tab="konverter" onclick="gantiTab('konverter',this)"><span class="nav-symbol"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-arrows-left-right"></use></svg></span> Konverter</button>
     <button data-tab="trace" onclick="window.location.href='./trace.html'"><span class="nav-symbol"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-pen-line"></use></svg></span> Aksara Trace</button>
     <button data-tab="budaya" onclick="gantiTab('budaya',this)"><span class="nav-symbol"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-flower"></use></svg></span> Budaya</button>
+    <button data-tab="jelajah" onclick="gantiTab('jelajah',this)"><span class="nav-symbol"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-camera"></use></svg></span> Jelajah AR</button>
     <button data-tab="kuis" onclick="gantiTab('kuis',this)"><span class="nav-symbol"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-circle-help"></use></svg></span> Kuis</button>
     <button data-tab="tentang" onclick="gantiTab('tentang',this)"><span class="nav-symbol"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-info"></use></svg></span> Tentang</button>
   </nav>
@@ -106,6 +124,9 @@
     <button type="button" class="mobile-drawer-item" data-tab="budaya" onclick="navigateMobile('budaya')"><span class="drawer-item-icon"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-flower"></use></svg></span><span><strong>Info Budaya</strong><small>Warisan dan cerita Rejang</small></span><svg class="ui-icon drawer-chevron" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-chevron-right"></use></svg></button>
     <button type="button" class="mobile-drawer-item" data-tab="kuis" onclick="navigateMobile('kuis')"><span class="drawer-item-icon"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-circle-help"></use></svg></span><span><strong>Kuis</strong><small>Uji pemahaman dengan latihan singkat</small></span><svg class="ui-icon drawer-chevron" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-chevron-right"></use></svg></button>
     <button type="button" class="mobile-drawer-item" data-tab="tentang" onclick="navigateMobile('tentang')"><span class="drawer-item-icon"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-info"></use></svg></span><span><strong>Tentang TUMBUAH</strong><small>Tujuan, sumber, dan lisensi</small></span><svg class="ui-icon drawer-chevron" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-chevron-right"></use></svg></button>
+    <button type="button" class="mobile-drawer-item" data-tab="audio" onclick="navigateMobile('audio')"><span class="drawer-item-icon"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-headphones"></use></svg></span><span><strong>Audio Penutur</strong><small>Katalog pelafalan dan kebutuhan rekaman</small></span><svg class="ui-icon drawer-chevron" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-chevron-right"></use></svg></button>
+    <button type="button" class="mobile-drawer-item" data-tab="jelajah" onclick="navigateMobile('jelajah')"><span class="drawer-item-icon"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-camera"></use></svg></span><span><strong>Jelajah Kontekstual / AR</strong><small>Demo overlay kata pada kamera atau kartu</small></span><svg class="ui-icon drawer-chevron" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-chevron-right"></use></svg></button>
+    <button type="button" class="mobile-drawer-item" data-tab="evaluasi" onclick="navigateMobile('evaluasi')"><span class="drawer-item-icon"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-clipboard-check"></use></svg></span><span><strong>Evaluasi Belajar</strong><small>Prates, pascates, retensi, dan SUS</small></span><svg class="ui-icon drawer-chevron" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-chevron-right"></use></svg></button>
   </div>
   <div class="mobile-drawer-note"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-cloud-off"></use></svg><span><strong>Dirancang untuk akses luring</strong><small>Beberapa aset perlu dimuat saat online terlebih dahulu.</small></span></div>
 </aside>
@@ -175,7 +196,38 @@
       <a class="feature-card" href="./trace.html"><span class="feature-symbol"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-pen-line"></use></svg></span><span class="feature-title">Aksara Trace</span><span class="feature-desc">Berlatih menelusuri bentuk aksara menggunakan jari atau mouse.</span><span class="feature-link">Mulai latihan <b><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-arrow-up-right"></use></svg></b></span></a>
       <button type="button" class="feature-card" onclick="gantiTab('budaya')"><span class="feature-symbol"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-flower"></use></svg></span><span class="feature-title">Info Budaya</span><span class="feature-desc">Jelajahi cerita, tradisi, kesenian, dan warisan Rejang.</span><span class="feature-link">Jelajahi budaya <b><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-arrow-up-right"></use></svg></b></span></button>
       <button type="button" class="feature-card" onclick="gantiTab('kuis')"><span class="feature-symbol"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-circle-help"></use></svg></span><span class="feature-title">Kuis Interaktif</span><span class="feature-desc">Uji pemahaman kata dan bunyi aksara dalam sesi singkat.</span><span class="feature-link">Mulai kuis <b><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-arrow-up-right"></use></svg></b></span></button>
+      <button type="button" class="feature-card prototype-feature" onclick="gantiTab('jelajah')"><span class="feature-symbol"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-camera"></use></svg></span><span class="feature-title">Jelajah Kontekstual</span><span class="feature-desc">Pratinjau pengalaman kamera dan kartu kata berbasis lokasi/benda.</span><span class="feature-link">Buka demo <b><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow-up-right"></use></svg></b></span></button>
+      <button type="button" class="feature-card prototype-feature" onclick="gantiTab('audio')"><span class="feature-symbol"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-headphones"></use></svg></span><span class="feature-title">Audio Penutur</span><span class="feature-desc">Lihat katalog pelafalan dan kata yang diprioritaskan untuk direkam.</span><span class="feature-link">Lihat katalog <b><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow-up-right"></use></svg></b></span></button>
     </div>
+  </section>
+  <section class="development-section" aria-labelledby="development-title">
+    <div class="section-heading-row">
+      <div><span class="section-eyebrow">PETA PENGEMBANGAN</span><h3 id="development-title">Sedang disiapkan untuk TUMBUAH</h3><p>Bagian ini menunjukkan rencana pengembangan berikutnya. Fitur berikut belum tersedia sebagai fungsi aktif.</p></div>
+      <span class="heading-floret" aria-hidden="true"><svg class="ui-icon" viewBox="0 0 24 24"><use href="#i-sparkles"></use></svg></span>
+    </div>
+    <div class="development-grid">
+      <article class="development-card">
+        <div class="development-card-top"><span class="development-icon"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-volume-2"></use></svg></span><span class="development-status">Tahap pengembangan</span></div>
+        <span class="development-kicker">BAHASA · AUDIO</span><h4>Audio pelafalan</h4>
+        <p>Menyiapkan rekaman dari penutur Bahasa Rejang, disertai keterangan sumber dan dialek. Audio akan disimpan agar dapat diputar secara luring.</p>
+      </article>
+      <article class="development-card">
+        <div class="development-card-top"><span class="development-icon"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-globe"></use></svg></span><span class="development-status">Tahap pengembangan</span></div>
+        <span class="development-kicker">KONTEKSTUAL · AR</span><h4>Spatial computing dan AR</h4>
+        <p>Rencana pengalaman memindai kartu atau benda budaya untuk menampilkan kosakata Rejang dan Kaganga. Mode gambar berlabel akan disediakan sebagai alternatif.</p>
+      </article>
+      <article class="development-card">
+        <div class="development-card-top"><span class="development-icon"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-book-open"></use></svg></span><span class="development-status">Tahap pengembangan</span></div>
+        <span class="development-kicker">SUMBER · VERIFIKASI</span><h4>Konten budaya terverifikasi</h4>
+        <p>Kartu budaya akan dilengkapi sumber, atribusi dan lisensi media, serta proses peninjauan bersama penutur atau tokoh adat sebelum diberi status terverifikasi.</p>
+      </article>
+      <article class="development-card">
+        <div class="development-card-top"><span class="development-icon"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-activity"></use></svg></span><span class="development-status">Tahap pengembangan</span></div>
+        <span class="development-kicker">PEMBELAJARAN · EVALUASI</span><h4>Evaluasi hasil belajar</h4>
+        <p>Rencana prates, pascates, tes retensi, dan kuesioner kebergunaan. Pencatatan penggunaan hanya akan dilakukan dengan persetujuan pengguna.</p>
+      </article>
+    </div>
+    <p class="development-footnote"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-info"></use></svg> Fitur berstatus tahap pengembangan belum aktif. TUMBUAH tetap dapat digunakan melalui fitur yang sudah tersedia.</p>
   </section>
   <section class="home-bottom-note"><span class="note-flower" aria-hidden="true"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-flower"></use></svg></span><div><strong>Belajar perlahan, jaga warisan tetap hidup.</strong><p>Gunakan kamus sebagai titik awal; makna dan pemakaian kata dapat berbeda menurut dialek dan konteks.</p></div><span class="note-glyph" aria-hidden="true">ꤰ ꤱ ꤲ</span></section>
 </div>
@@ -330,7 +382,29 @@
     <div class="culture-intro-copy"><span class="section-eyebrow">CATATAN WARISAN</span><h2>Mengenal Rejang lebih dekat.</h2><p>Budaya hidup melalui bahasa, tulisan, cerita, karya, alam, dan ingatan yang diteruskan antargenerasi. Halaman ini menjadi ruang pengantar yang bisa dikembangkan dengan sumber lokal dan dokumentasi yang terverifikasi.</p></div>
     <div class="culture-mark" aria-hidden="true"><span class="culture-mark-glyph">ꤰ ꤱ</span><span class="culture-floret"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-flower"></use></svg></span><span class="culture-mark-line"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-sparkles"></use></svg> ─ <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-sparkles"></use></svg></span></div>
   </section>
-  <div class="culture-grid">
+  
+  <section class="culture-explorer" aria-labelledby="cultureCatalogTitle">
+    <div class="culture-explorer-heading">
+      <div><span class="section-eyebrow">KATALOG BUDAYA · VERSI PROTOTIPE</span><h3 id="cultureCatalogTitle">Jelajahi cerita dan rujukan</h3><p>Ringkasan bersumber yang dapat dibaca secara luring. Status setiap kartu menunjukkan apakah informasi sudah dirujuk atau masih menunggu verifikasi lokal.</p></div>
+      <div class="culture-catalog-count"><strong id="cultureResultCount">0</strong><span>kartu</span></div>
+    </div>
+    <div class="culture-catalog-toolbar">
+      <label class="culture-search-wrap"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-search"></use></svg><input type="search" id="cultureSearch" placeholder="Cari aksara, tradisi, flora, atau rumah…" autocomplete="off" aria-label="Cari konten budaya"></label>
+      <button type="button" class="btn btn-outline culture-contribute-trigger" onclick="openCultureContribution()"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-square-pen"></use></svg> Usulkan konten</button>
+    </div>
+    <div class="culture-filter-row" id="cultureFilters" role="group" aria-label="Filter kategori budaya">
+      <button type="button" class="chip aktif" data-culture-filter="Semua" aria-pressed="true">Semua</button>
+      <button type="button" class="chip" data-culture-filter="Aksara & Naskah" aria-pressed="false">Aksara &amp; naskah</button>
+      <button type="button" class="chip" data-culture-filter="Seni & Tradisi" aria-pressed="false">Seni &amp; tradisi</button>
+      <button type="button" class="chip" data-culture-filter="Karya & Kerajinan" aria-pressed="false">Karya &amp; kerajinan</button>
+      <button type="button" class="chip" data-culture-filter="Bahasa & Dialek" aria-pressed="false">Bahasa &amp; dialek</button>
+      <button type="button" class="chip" data-culture-filter="Alam & Lingkungan" aria-pressed="false">Alam &amp; lingkungan</button>
+      <button type="button" class="chip" data-culture-filter="Rumah & Keseharian" aria-pressed="false">Rumah &amp; keseharian</button>
+    </div>
+    <div class="prototype-culture-grid" id="prototypeCultureGrid" aria-live="polite"><div class="prototype-loading"><span class="loader-dot"></span> Memuat katalog lokal…</div></div>
+    <div class="culture-catalog-footnote"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-info"></use></svg><p>Konten yang bersumber dari publikasi belum otomatis berarti sudah divalidasi oleh komunitas. Informasi sensitif atau lisan memerlukan persetujuan narasumber dan peninjauan penutur/tokoh adat sebelum dinyatakan terverifikasi.</p></div>
+  </section>
+<div class="culture-grid">
     <article class="culture-card culture-card-wide"><div class="culture-card-art art-script" aria-hidden="true"><span>ꤰ</span><span>ꤱ</span><span>ꤲ</span><i><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-sparkles"></use></svg></i></div><div class="culture-card-body"><span class="culture-tag">AKSARA</span><h3>Kaganga dan tradisi tulis</h3><p>Kenali bentuk aksara Rejang, cara membaca tanda vokal, dan peran tulisan dalam upaya menjaga pengetahuan lokal.</p><button class="text-action" type="button" onclick="gantiTab('kaganga')">Jelajahi aksara <span><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-arrow-up-right"></use></svg></span></button></div></article>
     <article class="culture-card"><div class="culture-card-art art-landscape" aria-hidden="true"><span class="hill hill-back"></span><span class="hill hill-front"></span><span class="sun-disc"></span></div><div class="culture-card-body"><span class="culture-tag">BAHASA</span><h3>Bahasa dan dialek</h3><p>Kosakata dapat memiliki bentuk yang berbeda antarwilayah. Bandingkan padanan kata melalui koleksi kamus.</p><button class="text-action" type="button" onclick="gantiTab('kamus')">Cari kosakata <span><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-arrow-up-right"></use></svg></span></button></div></article>
     <article class="culture-card"><div class="culture-card-art art-ornament" aria-hidden="true"><span><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-leaf"></use></svg></span><span><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-sparkles"></use></svg></span><span><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-leaf"></use></svg></span><small>POLA · RAGAM · MAKNA</small></div><div class="culture-card-body"><span class="culture-tag">KARYA</span><h3>Motif dan kerajinan</h3><p>Dokumentasikan ragam motif, bahan, teknik, serta makna yang diterangkan langsung oleh pembuat atau pemilik tradisi.</p><span class="culture-source-note">Konten dapat dilengkapi dengan dokumentasi dan sumber lokal.</span></div></article>
@@ -363,6 +437,59 @@
   <div style="text-align:center"><button class="btn btn-outline" onclick="resetKuis()"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-refresh"></use></svg> Mulai Ulang</button></div>
 </div>
 
+<!-- ===== AUDIO PENUTUR: KATALOG PROTOTIPE ===== -->
+<div id="tab-audio" class="tab-panel">
+  <section class="prototype-page-hero audio-page-hero">
+    <div class="prototype-page-hero-copy"><span class="section-eyebrow">BAHASA · PELAFALAN</span><h2>Suara dari penutur, menjaga makna.</h2><p>Katalog ini menyiapkan struktur audio untuk setiap kata dan dialek. Rekaman penutur belum tersedia di paket prototipe, sehingga tidak ada suara tiruan yang diklaim sebagai pelafalan Bahasa Rejang.</p><div class="prototype-hero-actions"><span class="prototype-status status-development"><span class="status-led"></span> Tahap pengembangan</span><button type="button" class="btn btn-primary" onclick="openAudioRequest()"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-mic"></use></svg> Usulkan prioritas rekaman</button></div></div>
+    <div class="audio-wave-art" aria-hidden="true"><div class="audio-wave-circle"><svg class="ui-icon" viewBox="0 0 24 24"><use href="#i-headphones"></use></svg></div><div class="wave-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span>REKAMAN PENUTUR ASLI</span></div>
+  </section>
+  <div class="prototype-metric-row audio-metrics"><div><span class="metric-number">1.284</span><span class="metric-label">entri kamus lokal</span></div><div><span class="metric-number">5</span><span class="metric-label">label wilayah di aplikasi</span></div><div><span class="metric-number" id="audioAvailableCount">0</span><span class="metric-label">rekaman terverifikasi dalam paket</span></div></div>
+  <section class="prototype-panel">
+    <div class="prototype-panel-head"><div><span class="section-eyebrow">KATALOG PELAFALAN</span><h3>Kata yang disiapkan untuk direkam</h3><p>Pilih kata untuk melihat informasi kebutuhan audionya. Pemutaran belum aktif karena sumber suara belum ada.</p></div><span class="prototype-panel-icon"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-volume-2"></use></svg></span></div>
+    <label class="prototype-search"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-search"></use></svg><input type="search" id="audioSearch" placeholder="Cari kata Rejang atau arti Indonesianya…" aria-label="Cari katalog audio"></label>
+    <div class="audio-dialect-note"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-info"></use></svg><span>Label wilayah pada kamus tidak selalu identik dengan klasifikasi dialektologi. Rekaman harus mencantumkan identitas dialek berdasarkan konfirmasi penutur.</span></div>
+    <div class="audio-word-list" id="audioWordList"><div class="prototype-loading"><span class="loader-dot"></span> Memuat daftar kata…</div></div>
+  </section>
+  <section class="prototype-next-step"><div class="prototype-next-icon"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-mic"></use></svg></div><div><strong>Alur pengumpulan audio</strong><p>Prioritas kata → rekaman penutur → konfirmasi dialek dan pelafalan → izin penggunaan → pemeriksaan berkas → audio lokal pada aplikasi.</p></div><span class="development-status">Belum ada unggahan server</span></section>
+</div>
+
+<!-- ===== JELAJAH KONTEKSTUAL / AR: PROTOTIPE INTERAKTIF ===== -->
+<div id="tab-jelajah" class="tab-panel">
+  <section class="prototype-page-hero ar-page-hero">
+    <div class="prototype-page-hero-copy"><span class="section-eyebrow">SPATIAL COMPUTING · AR</span><h2>Belajar dari benda di sekitar.</h2><p>Prototipe ini menunjukkan alur kamera, kartu kata, dan lapisan informasi. Kamera dapat dibuka pada perangkat yang mendukung, tetapi pengenalan marker otomatis belum diimplementasikan.</p><div class="prototype-hero-actions"><span class="prototype-status status-demo"><span class="status-led"></span> Mode demonstrasi</span><span class="prototype-status status-development">Deteksi marker: tahap pengembangan</span></div></div>
+    <div class="ar-hero-art" aria-hidden="true"><div class="ar-art-frame"><span class="ar-corner tl"></span><span class="ar-corner tr"></span><span class="ar-corner bl"></span><span class="ar-corner br"></span><span class="ar-glyph">ꤰꤱꤲ</span><span class="ar-art-caption">KAGANGA · OBJEK · KONTEKS</span><div class="ar-art-orbit"></div></div></div>
+  </section>
+  <div class="ar-disclaimer"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-info"></use></svg><p><strong>Batas prototipe:</strong> lapisan kata ditampilkan berdasarkan pilihan manual untuk demonstrasi UI. Belum ada deteksi gambar/marker, pelacakan ruang, atau penempatan objek 3D secara otomatis.</p></div>
+  <section class="ar-workspace">
+    <div class="ar-workspace-header"><div><span class="section-eyebrow">JELAJAH LAB</span><h3>Pindai dan kenali</h3><p>Uji tampilan kamera atau gunakan kartu demo offline.</p></div><div class="ar-state-pill" id="arCameraState"><span></span> Kamera belum aktif</div></div>
+    <div class="ar-viewfinder" id="arViewfinder">
+      <video id="arVideo" autoplay playsinline muted aria-label="Tampilan kamera untuk demo AR" hidden></video>
+      <div class="ar-fallback-scene" id="arFallbackScene" aria-hidden="true"><div class="ar-scene-grid"></div><div class="ar-scene-hills hill-one"></div><div class="ar-scene-hills hill-two"></div><div class="ar-marker-card"><span class="ar-marker-logo">T</span><span>KARTU KATA</span><strong>REJANG</strong><small>AR EXPERIENCE · DEMO</small></div><div class="ar-scan-line"></div></div>
+      <div class="ar-reticle" aria-hidden="true"><span></span></div>
+      <div class="ar-camera-label" id="arCameraLabel"><span class="status-led"></span> PRATINJAU DEMO · KAMERA BELUM AKTIF</div>
+      <div class="ar-overlay-card" id="arOverlayCard" hidden><div class="ar-overlay-topline"><span>HASIL OVERLAY DEMO</span><span class="ar-overlay-dot"></span></div><div class="ar-overlay-meaning" id="arOverlayMeaning">air</div><div class="ar-overlay-word" id="arOverlayWord">bioa</div><div class="ar-overlay-script" id="arOverlayScript">ꤷꥇꥋ</div><div class="ar-overlay-meta" id="arOverlayMeta">Rejang · padanan dari data kamus</div><button type="button" class="ar-overlay-audio" onclick="showAudioUnavailable('Kata yang dipilih')"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-volume-2"></use></svg> Audio penutur <span>Tahap pengembangan</span></button></div>
+      <div class="ar-viewfinder-hint" id="arViewfinderHint">Pilih “Mode kartu demo” untuk menampilkan contoh overlay tanpa kamera.</div>
+    </div>
+    <div class="ar-control-grid">
+      <button type="button" class="btn btn-primary" id="arStartCamera"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-camera"></use></svg> Aktifkan kamera</button>
+      <button type="button" class="btn btn-outline" id="arDemoMode"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-scan-line"></use></svg> Mode kartu demo</button>
+      <button type="button" class="btn btn-outline" id="arShowOverlay"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-target"></use></svg> Tampilkan overlay</button>
+      <button type="button" class="btn btn-outline" id="arStopCamera" disabled><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-x"></use></svg> Matikan kamera</button>
+    </div>
+    <div class="ar-selection-row"><label for="arObjectSelect">Objek/kartu contoh</label><select id="arObjectSelect"><option value="bioa">Kartu kata: air — bioa</option><option value="umeak">Kartu kata: rumah — umeak</option><option value="bungai">Kartu kata: bunga — bungai</option><option value="butau">Kartu kata: batu — butau</option><option value="opoi">Kartu kata: api — opoi</option></select><p>Daftar contoh berasal dari entri kamus lokal. Aksara yang tampil menggunakan hasil konverter aplikasi dan masih perlu validasi penutur.</p></div>
+  </section>
+  <section class="ar-mission-panel"><div class="prototype-panel-head"><div><span class="section-eyebrow">MISI BELAJAR</span><h3>Misi harian: temukan kata di sekitarmu</h3><p>Daftar demonstrasi untuk memperlihatkan bagaimana misi dapat bekerja. Progres disimpan lokal di perangkat ini.</p></div><span class="prototype-panel-icon"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-list-check"></use></svg></span></div><div class="mission-progress-line"><span id="missionProgressText">0 dari 5 selesai</span><div class="mission-progress-track"><span id="missionProgressBar" style="width:0%"></span></div></div><div class="mission-list" id="missionList"></div><button type="button" class="btn btn-outline" id="resetMissions"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-refresh"></use></svg> Ulangi misi demo</button></section>
+</div>
+
+<!-- ===== EVALUASI BELAJAR ===== -->
+<div id="tab-evaluasi" class="tab-panel">
+  <section class="prototype-page-hero evaluation-hero"><div class="prototype-page-hero-copy"><span class="section-eyebrow">EVALUASI · PROTOTIPE</span><h2>Belajar yang bisa diukur.</h2><p>Ruang rancangan untuk melihat pemahaman, retensi, dan kebergunaan TUMBUAH. Hasil tersimpan di perangkat ini dan tidak dikirim ke server.</p><div class="prototype-hero-actions"><span class="prototype-status status-demo"><span class="status-led"></span> Mode uji coba</span><span class="prototype-status status-development">Instrumen perlu validasi</span></div></div><div class="evaluation-hero-art"><div class="evaluation-ring"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-clipboard-check"></use></svg></div><div class="evaluation-hero-caption"><strong>Uji · Tinjau · Perbaiki</strong><small>Prates, pascates, retensi, SUS</small></div></div></section>
+  <div class="evaluation-privacy-note"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-lock-keyhole"></use></svg><div><strong>Privasi prototipe</strong><p>Data jawaban hanya tersimpan di localStorage pada perangkat ini. Tidak ada telemetri atau pengiriman data otomatis.</p></div></div>
+  <section class="evaluation-tabs" role="tablist" aria-label="Pilih instrumen evaluasi"><button class="evaluation-tab aktif" type="button" data-evaluation-mode="pre" role="tab" aria-selected="true">Prates</button><button class="evaluation-tab" type="button" data-evaluation-mode="post" role="tab" aria-selected="false">Pascates</button><button class="evaluation-tab" type="button" data-evaluation-mode="retention" role="tab" aria-selected="false">Retensi</button><button class="evaluation-tab" type="button" data-evaluation-mode="sus" role="tab" aria-selected="false">Kebergunaan (SUS)</button></section>
+  <section class="prototype-panel evaluation-panel" id="evaluationPanel"><div id="evaluationContent"></div></section>
+  <section class="evaluation-export"><div><strong>Data evaluasi lokal</strong><p>Unduh salinan JSON atau hapus data uji dari perangkat ini.</p></div><div class="evaluation-export-actions"><button type="button" class="btn btn-outline" id="exportEvaluation"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-download"></use></svg> Ekspor JSON</button><button type="button" class="btn btn-outline" id="clearEvaluation"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-trash"></use></svg> Hapus hasil lokal</button></div></section>
+</div>
+
 <!-- ===== TENTANG ===== -->
 <div id="tab-tentang" class="tab-panel">
   <section class="about-hero">
@@ -375,8 +502,29 @@
     <article class="about-card"><div class="about-card-icon"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-handshake"></use></svg></div><span class="section-eyebrow">KONTRIBUSI</span><h3>Bantu menjaga kualitas data</h3><p>Kosakata dan data Kaganga dapat dikembangkan melalui repositori proyek. Kontribusi sebaiknya disertai sumber dan keterangan dialek yang jelas.</p><a href="https://github.com/hariyantodipayang/kamus-bahasa-rejang" class="btn btn-primary" target="_blank" rel="noopener noreferrer"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-external-link"></use></svg> Lihat repositori</a></article>
     <article class="about-card"><div class="about-card-icon"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-file-text"></use></svg></div><span class="section-eyebrow">REFERENSI</span><h3>Landasan dokumentasi</h3><ul class="reference-list"><li>Jaspan, M.A. (1964). <em>A Rejang-English dictionary</em>.</li><li>Walker, D.F. (1976). <em>A grammar of the Rejang language</em>.</li><li>The Unicode Consortium. <em>Rejang Block U+A930–U+A95F</em>.</li><li>Kosakata: CC-BY-SA 4.0 · Kode: MIT License.</li></ul></article>
   </section>
+
+  <section class="about-development" aria-labelledby="about-development-title">
+    <div class="about-development-heading"><span class="section-eyebrow">PENGEMBANGAN BERKELANJUTAN</span><h3 id="about-development-title">Peta pengembangan TUMBUAH</h3><p>Fitur inti dikembangkan bertahap agar kualitas bahasa, akurasi budaya, dan akses luring tetap menjadi prioritas.</p></div>
+    <div class="about-development-list">
+      <div><span class="development-step-number">01</span><span><strong>Fondasi PWA dan kamus</strong><small>Sudah tersedia; terus diuji pada perangkat dan kondisi luring.</small></span><span class="development-status development-status-current">Berjalan</span></div>
+      <div><span class="development-step-number">02</span><span><strong>Aksara Trace</strong><small>Prototipe latihan tersedia; validasi panduan goresan masih diperlukan.</small></span><span class="development-status">Penyempurnaan</span></div>
+      <div><span class="development-step-number">03</span><span><strong>Audio pelafalan</strong><small>Menunggu sumber rekaman dan izin penggunaan yang sesuai.</small></span><span class="development-status">Tahap pengembangan</span></div>
+      <div><span class="development-step-number">04</span><span><strong>Info budaya tervalidasi</strong><small>Memerlukan rujukan, atribusi, dan peninjauan narasumber yang relevan.</small></span><span class="development-status">Tahap pengembangan</span></div>
+      <div><span class="development-step-number">05</span><span><strong>AR dan evaluasi belajar</strong><small>Dikerjakan setelah kebutuhan MVP utama siap.</small></span><span class="development-status">Tahap pengembangan</span></div>
+    </div>
+  </section>
 </div>
 </main>
+
+
+<div class="prototype-modal" id="prototypeModal" hidden>
+  <button type="button" class="prototype-modal-scrim" data-modal-close aria-label="Tutup dialog"></button>
+  <section class="prototype-modal-panel" role="dialog" aria-modal="true" aria-labelledby="prototypeModalTitle" tabindex="-1">
+    <div class="prototype-modal-head"><div><span class="section-eyebrow" id="prototypeModalEyebrow">TUMBUAH · INFORMASI</span><h2 id="prototypeModalTitle">Detail</h2></div><button type="button" class="prototype-modal-close" data-modal-close aria-label="Tutup"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-x"></use></svg></button></div>
+    <div class="prototype-modal-content" id="prototypeModalContent"></div>
+  </section>
+</div>
+<div class="prototype-toast" id="prototypeToast" role="status" aria-live="polite" hidden></div>
 
 <nav class="mobile-bottom-nav" aria-label="Navigasi cepat">
   <button type="button" class="aktif" data-tab="beranda" aria-current="page" onclick="navigateMobile('beranda')"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-home"></use></svg><span>Beranda</span></button>
@@ -2160,9 +2308,10 @@ if ("serviceWorker" in navigator) {
 <script>
 // Deep-link internal tabs, e.g. when returning from the Trace page.
 (() => {
-  const match = location.hash.match(/^#tab-(beranda|kamus|kaganga|konverter|budaya|kuis|tentang)$/);
+  const match = location.hash.match(/^#tab-(beranda|kamus|kaganga|konverter|budaya|kuis|tentang|audio|jelajah|evaluasi)$/);
   if (match && document.getElementById('tab-' + match[1])) gantiTab(match[1]);
 })();
 </script>
+<script src="./prototype.js"></script>
 </body>
 </html>

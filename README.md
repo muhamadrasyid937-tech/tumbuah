@@ -2,7 +2,7 @@
 
 Platform pembelajaran web open source untuk belajar dan melestarikan **Bahasa Rejang** dan **Aksara Kaganga** dari Bengkulu — lengkap dengan **1.284 kata**, **5 dialek**, dan **aksara Kaganga** interaktif.
 
-**Demo langsung:** [buka `index.html` di browser] | [GitHub Pages](https://muhamadrasyid937-tech.github.io/tumbuah/)  
+**Demo langsung:** [buka `index.html` di browser] | [GitHub Pages](https://muhamadrasyid937-tech.github.io/kamus-bahasa-rejang/)  
 **Repositori:** [github.com/hariyantodipayang/kamus-bahasa-rejang](https://github.com/hariyantodipayang/kamus-bahasa-rejang)
 
 ---
@@ -186,3 +186,22 @@ Dibuat dengan ❤️ untuk melestarikan warisan budaya Bengkulu<br>
 <em>ꤰꤱꤲ · ꤳꤴꤵ · ꤶꤷꤸ</em><br><br>
 <a href="https://dipayang.idcrypt.xyz/profil">👨‍💻 Hariyanto, S.Sos</a> · <a href="https://github.com/hariyantodipayang/kamus-bahasa-rejang">⭐ GitHub</a> · <a href="https://wa.me/6285609326414">💬 WhatsApp</a>
 </p>
+
+
+## Status pengembangan (MVP TUMBUAH)
+
+Fitur yang belum tersedia ditampilkan secara eksplisit sebagai **Tahap pengembangan**, bukan sebagai fungsi aktif. Roadmap saat ini mencakup:
+
+- Audio pelafalan: menunggu sumber rekaman, keterangan dialek, dan izin penggunaan.
+- Spatial computing / AR: direncanakan sebagai fitur lanjutan dengan mode alternatif non-AR.
+- Konten budaya terverifikasi: memerlukan referensi, atribusi/lisensi media, dan proses peninjauan bersama penutur atau tokoh adat.
+- Evaluasi pembelajaran: prates, pascates, tes retensi, SUS, serta pencatatan anonim berbasis persetujuan.
+
+Fitur yang berstatus tahap pengembangan tidak mengarah ke halaman yang belum ada dan tidak diklaim sudah berfungsi.
+
+
+## Modul prototipe TUMBUAH
+
+Berkas `prototype.js` dan `prototype.css` menambahkan katalog budaya interaktif, katalog audio tanpa rekaman (ditandai tahap pengembangan), demo kamera/overlay manual AR, serta instrumen evaluasi lokal. Data budaya berada di `data/budaya.json` dan ikut di-cache oleh Service Worker.
+
+**Batasan penting:** demo AR tidak melakukan pengenalan marker otomatis; audio penutur belum tersedia; form usulan budaya hanya menyimpan draf di perangkat; hasil evaluasi disimpan di `localStorage` dan bukan data penelitian tervalidasi. Lihat `PETA-PENGEMBANGAN.md`.
