@@ -67,3 +67,58 @@
   body{padding-bottom:calc(68px + env(safe-area-inset-bottom,0px) + 10px)}
   body.mobile-menu-open{overflow:hidden}
 }
+
+
+/* TUMBUAH roadmap actions: styled CTAs instead of browser-default buttons. */
+.development-card .prototype-roadmap-link{
+  appearance:none;
+  -webkit-appearance:none;
+  box-sizing:border-box;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  width:100%;
+  min-width:0;
+  min-height:46px;
+  margin-top:15px;
+  padding:11px 14px;
+  border:1px solid #D7BB8D;
+  border-radius:13px;
+  background:linear-gradient(135deg,#FBF2E2 0%,#F2E2C7 100%);
+  color:#64282C;
+  font-family:inherit;
+  font-size:.78rem;
+  font-weight:750;
+  line-height:1.35;
+  text-align:left;
+  white-space:normal;
+  overflow-wrap:anywhere;
+  box-shadow:0 3px 9px rgba(75,38,31,.06),inset 0 1px 0 rgba(255,255,255,.75);
+  cursor:pointer;
+  touch-action:manipulation;
+  transition:background .18s ease,border-color .18s ease,box-shadow .18s ease,transform .18s ease,color .18s ease;
+}
+.development-card .prototype-roadmap-link .ui-icon{
+  flex:0 0 17px;
+  width:17px;
+  height:17px;
+  color:#8A573C;
+  transition:transform .18s ease,color .18s ease;
+}
+@media(hover:hover){
+  .development-card .prototype-roadmap-link:hover{
+    border-color:#7A3538;
+    background:linear-gradient(135deg,#6E2D31 0%,#512126 100%);
+    color:#FFF7E8;
+    box-shadow:0 6px 15px rgba(73,30,32,.18);
+    transform:translateY(-1px);
+  }
+  .development-card .prototype-roadmap-link:hover .ui-icon{color:#E7C795;transform:translate(2px,-2px)}
+}
+.development-card .prototype-roadmap-link:active{transform:translateY(1px);box-shadow:0 1px 3px rgba(75,38,31,.08)}
+.development-card .prototype-roadmap-link:focus-visible{outline:3px solid rgba(190,145,83,.55);outline-offset:3px}
+@media(max-width:760px){
+  .development-card .prototype-roadmap-link{min-height:48px;margin-top:14px;padding:12px 14px;border-radius:12px;font-size:.79rem}
+}
+@media(prefers-reduced-motion:reduce){.development-card .prototype-roadmap-link,.development-card .prototype-roadmap-link .ui-icon{transition:none}}
