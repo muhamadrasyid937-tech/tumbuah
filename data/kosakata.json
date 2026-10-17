@@ -1,0 +1,491 @@
+{
+  "meta": {
+    "versi": "1.0.0",
+    "deskripsi": "Kosakata Bahasa Rejang dari 5 dialek utama",
+    "dialek": ["lebong", "rejang_lebong", "kepahiang", "bengkulu_utara", "bengkulu_tengah"],
+    "lisensi": "CC-BY-SA 4.0",
+    "kontributor": []
+  },
+  "kosakata": [
+    {
+      "id": "001",
+      "indonesia": "air",
+      "kategori": "alam",
+      "dialek": {
+        "lebong": { "kata": "wai", "ipa": "wai", "kaganga": "ꥀꤰꥇ" },
+        "rejang_lebong": { "kata": "wai", "ipa": "wai", "kaganga": "ꥀꤰꥇ" },
+        "kepahiang": { "kata": "wai", "ipa": "wai", "kaganga": "ꥀꤰꥇ" },
+        "bengkulu_utara": { "kata": "waei", "ipa": "waei", "kaganga": "ꥀꤰꥊ" },
+        "bengkulu_tengah": { "kata": "wai", "ipa": "wai", "kaganga": "ꥀꤰꥇ" }
+      }
+    },
+    {
+      "id": "002",
+      "indonesia": "api",
+      "kategori": "alam",
+      "dialek": {
+        "lebong": { "kata": "apui", "ipa": "apui", "kaganga": "ꤰꤶꥈꥇ" },
+        "rejang_lebong": { "kata": "apui", "ipa": "apui", "kaganga": "ꤰꤶꥈꥇ" },
+        "kepahiang": { "kata": "apui", "ipa": "apui", "kaganga": "ꤰꤶꥈꥇ" },
+        "bengkulu_utara": { "kata": "apui", "ipa": "apui", "kaganga": "ꤰꤶꥈꥇ" },
+        "bengkulu_tengah": { "kata": "apoi", "ipa": "apoi", "kaganga": "ꤰꤶꥋꥇ" }
+      }
+    },
+    {
+      "id": "003",
+      "indonesia": "batu",
+      "kategori": "alam",
+      "dialek": {
+        "lebong": { "kata": "beto", "ipa": "bəto", "kaganga": "ꤷꤳꥋ" },
+        "rejang_lebong": { "kata": "beto", "ipa": "bəto", "kaganga": "ꤷꤳꥋ" },
+        "kepahiang": { "kata": "beteun", "ipa": "bəteun", "kaganga": "ꤷꤳꤳꥈꤵ" },
+        "bengkulu_utara": { "kata": "beto", "ipa": "bəto", "kaganga": "ꤷꤳꥋ" },
+        "bengkulu_tengah": { "kata": "beto", "ipa": "bəto", "kaganga": "ꤷꤳꥋ" }
+      }
+    },
+    {
+      "id": "004",
+      "indonesia": "rumah",
+      "kategori": "bangunan",
+      "dialek": {
+        "lebong": { "kata": "umeak", "ipa": "umeaʔ", "kaganga": "ꤰꥈꤸꥇꤰ" },
+        "rejang_lebong": { "kata": "umeak", "ipa": "umeaʔ", "kaganga": "ꤰꥈꤸꥇꤰ" },
+        "kepahiang": { "kata": "umeak", "ipa": "umeaʔ", "kaganga": "ꤰꥈꤸꥇꤰ" },
+        "bengkulu_utara": { "kata": "umeak", "ipa": "umeaʔ", "kaganga": "ꤰꥈꤸꥇꤰ" },
+        "bengkulu_tengah": { "kata": "umea", "ipa": "umea", "kaganga": "ꤰꥈꤸꥊ" }
+      }
+    },
+    {
+      "id": "005",
+      "indonesia": "ibu",
+      "kategori": "keluarga",
+      "dialek": {
+        "lebong": { "kata": "ino", "ipa": "ino", "kaganga": "ꤰꥇꤵꥋ" },
+        "rejang_lebong": { "kata": "ino", "ipa": "ino", "kaganga": "ꤰꥇꤵꥋ" },
+        "kepahiang": { "kata": "ino", "ipa": "ino", "kaganga": "ꤰꥇꤵꥋ" },
+        "bengkulu_utara": { "kata": "ino", "ipa": "ino", "kaganga": "ꤰꥇꤵꥋ" },
+        "bengkulu_tengah": { "kata": "ino", "ipa": "ino", "kaganga": "ꤰꥇꤵꥋ" }
+      }
+    },
+    {
+      "id": "006",
+      "indonesia": "ayah / bapak",
+      "kategori": "keluarga",
+      "dialek": {
+        "lebong": { "kata": "bapeak", "ipa": "bapeaʔ", "kaganga": "ꤷꤰꤶꥇꤰ" },
+        "rejang_lebong": { "kata": "bapeak", "ipa": "bapeaʔ", "kaganga": "ꤷꤰꤶꥇꤰ" },
+        "kepahiang": { "kata": "bapeak", "ipa": "bapeaʔ", "kaganga": "ꤷꤰꤶꥇꤰ" },
+        "bengkulu_utara": { "kata": "bapak", "ipa": "bapaʔ", "kaganga": "ꤷꤰꤶꤰ" },
+        "bengkulu_tengah": { "kata": "bapeak", "ipa": "bapeaʔ", "kaganga": "ꤷꤰꤶꥇꤰ" }
+      }
+    },
+    {
+      "id": "007",
+      "indonesia": "anak",
+      "kategori": "keluarga",
+      "dialek": {
+        "lebong": { "kata": "anak", "ipa": "anak", "kaganga": "ꤰꤵꤰ" },
+        "rejang_lebong": { "kata": "anak", "ipa": "anak", "kaganga": "ꤰꤵꤰ" },
+        "kepahiang": { "kata": "anak", "ipa": "anak", "kaganga": "ꤰꤵꤰ" },
+        "bengkulu_utara": { "kata": "anak", "ipa": "anak", "kaganga": "ꤰꤵꤰ" },
+        "bengkulu_tengah": { "kata": "anak", "ipa": "anak", "kaganga": "ꤰꤵꤰ" }
+      }
+    },
+    {
+      "id": "008",
+      "indonesia": "makan",
+      "kategori": "kegiatan",
+      "dialek": {
+        "lebong": { "kata": "ngen", "ipa": "ŋen", "kaganga": "ꤲꤵ" },
+        "rejang_lebong": { "kata": "ngen", "ipa": "ŋen", "kaganga": "ꤲꤵ" },
+        "kepahiang": { "kata": "ngon", "ipa": "ŋon", "kaganga": "ꤲꤵ" },
+        "bengkulu_utara": { "kata": "ngen", "ipa": "ŋen", "kaganga": "ꤲꤵ" },
+        "bengkulu_tengah": { "kata": "man", "ipa": "man", "kaganga": "ꤸꤵ" }
+      }
+    },
+    {
+      "id": "009",
+      "indonesia": "minum",
+      "kategori": "kegiatan",
+      "dialek": {
+        "lebong": { "kata": "minom", "ipa": "minom", "kaganga": "ꤸꥇꤵꥋꤸ" },
+        "rejang_lebong": { "kata": "minom", "ipa": "minom", "kaganga": "ꤸꥇꤵꥋꤸ" },
+        "kepahiang": { "kata": "minom", "ipa": "minom", "kaganga": "ꤸꥇꤵꥋꤸ" },
+        "bengkulu_utara": { "kata": "minem", "ipa": "minəm", "kaganga": "ꤸꥇꤵꤸ" },
+        "bengkulu_tengah": { "kata": "minom", "ipa": "minom", "kaganga": "ꤸꥇꤵꥋꤸ" }
+      }
+    },
+    {
+      "id": "010",
+      "indonesia": "pergi",
+      "kategori": "kegiatan",
+      "dialek": {
+        "lebong": { "kata": "lop", "ipa": "lop", "kaganga": "ꤾꥋꤶ" },
+        "rejang_lebong": { "kata": "lop", "ipa": "lop", "kaganga": "ꤾꥋꤶ" },
+        "kepahiang": { "kata": "lop", "ipa": "lop", "kaganga": "ꤾꥋꤶ" },
+        "bengkulu_utara": { "kata": "luop", "ipa": "luop", "kaganga": "ꤾꥈꥋꤶ" },
+        "bengkulu_tengah": { "kata": "lop", "ipa": "lop", "kaganga": "ꤾꥋꤶ" }
+      }
+    },
+    {
+      "id": "011",
+      "indonesia": "tidur",
+      "kategori": "kegiatan",
+      "dialek": {
+        "lebong": { "kata": "medep", "ipa": "medep", "kaganga": "ꤸꤴꤶ" },
+        "rejang_lebong": { "kata": "medep", "ipa": "medep", "kaganga": "ꤸꤴꤶ" },
+        "kepahiang": { "kata": "medep", "ipa": "medep", "kaganga": "ꤸꤴꤶ" },
+        "bengkulu_utara": { "kata": "medep", "ipa": "medep", "kaganga": "ꤸꤴꤶ" },
+        "bengkulu_tengah": { "kata": "medem", "ipa": "medəm", "kaganga": "ꤸꤴꤸ" }
+      }
+    },
+    {
+      "id": "012",
+      "indonesia": "satu",
+      "kategori": "angka",
+      "dialek": {
+        "lebong": { "kata": "sa'ei", "ipa": "saʔei", "kaganga": "ꤼꤰꥊ" },
+        "rejang_lebong": { "kata": "sa'ei", "ipa": "saʔei", "kaganga": "ꤼꤰꥊ" },
+        "kepahiang": { "kata": "sa'ei", "ipa": "saʔei", "kaganga": "ꤼꤰꥊ" },
+        "bengkulu_utara": { "kata": "saei", "ipa": "saei", "kaganga": "ꤼꥊ" },
+        "bengkulu_tengah": { "kata": "sa'ei", "ipa": "saʔei", "kaganga": "ꤼꤰꥊ" }
+      }
+    },
+    {
+      "id": "013",
+      "indonesia": "dua",
+      "kategori": "angka",
+      "dialek": {
+        "lebong": { "kata": "duei", "ipa": "duei", "kaganga": "ꤴꥈꥊ" },
+        "rejang_lebong": { "kata": "duei", "ipa": "duei", "kaganga": "ꤴꥈꥊ" },
+        "kepahiang": { "kata": "duei", "ipa": "duei", "kaganga": "ꤴꥈꥊ" },
+        "bengkulu_utara": { "kata": "duei", "ipa": "duei", "kaganga": "ꤴꥈꥊ" },
+        "bengkulu_tengah": { "kata": "duei", "ipa": "duei", "kaganga": "ꤴꥈꥊ" }
+      }
+    },
+    {
+      "id": "014",
+      "indonesia": "tiga",
+      "kategori": "angka",
+      "dialek": {
+        "lebong": { "kata": "telo", "ipa": "telo", "kaganga": "ꤳꤾꥋ" },
+        "rejang_lebong": { "kata": "telo", "ipa": "telo", "kaganga": "ꤳꤾꥋ" },
+        "kepahiang": { "kata": "telo", "ipa": "telo", "kaganga": "ꤳꤾꥋ" },
+        "bengkulu_utara": { "kata": "telo", "ipa": "telo", "kaganga": "ꤳꤾꥋ" },
+        "bengkulu_tengah": { "kata": "telo", "ipa": "telo", "kaganga": "ꤳꤾꥋ" }
+      }
+    },
+    {
+      "id": "015",
+      "indonesia": "empat",
+      "kategori": "angka",
+      "dialek": {
+        "lebong": { "kata": "mpat", "ipa": "mpat", "kaganga": "ꤸꤶꤰꤳ" },
+        "rejang_lebong": { "kata": "mpat", "ipa": "mpat", "kaganga": "ꤸꤶꤰꤳ" },
+        "kepahiang": { "kata": "mpat", "ipa": "mpat", "kaganga": "ꤸꤶꤰꤳ" },
+        "bengkulu_utara": { "kata": "mpat", "ipa": "mpat", "kaganga": "ꤸꤶꤰꤳ" },
+        "bengkulu_tengah": { "kata": "mpat", "ipa": "mpat", "kaganga": "ꤸꤶꤰꤳ" }
+      }
+    },
+    {
+      "id": "016",
+      "indonesia": "lima",
+      "kategori": "angka",
+      "dialek": {
+        "lebong": { "kata": "limo", "ipa": "limo", "kaganga": "ꤾꥇꤸꥋ" },
+        "rejang_lebong": { "kata": "limo", "ipa": "limo", "kaganga": "ꤾꥇꤸꥋ" },
+        "kepahiang": { "kata": "limo", "ipa": "limo", "kaganga": "ꤾꥇꤸꥋ" },
+        "bengkulu_utara": { "kata": "limo", "ipa": "limo", "kaganga": "ꤾꥇꤸꥋ" },
+        "bengkulu_tengah": { "kata": "limo", "ipa": "limo", "kaganga": "ꤾꥇꤸꥋ" }
+      }
+    },
+    {
+      "id": "017",
+      "indonesia": "enam",
+      "kategori": "angka",
+      "dialek": {
+        "lebong": { "kata": "enam", "ipa": "enam", "kaganga": "ꤰꤵꤰꤸ" },
+        "rejang_lebong": { "kata": "enam", "ipa": "enam", "kaganga": "ꤰꤵꤰꤸ" },
+        "kepahiang": { "kata": "enam", "ipa": "enam", "kaganga": "ꤰꤵꤰꤸ" },
+        "bengkulu_utara": { "kata": "enam", "ipa": "enam", "kaganga": "ꤰꤵꤰꤸ" },
+        "bengkulu_tengah": { "kata": "enam", "ipa": "enam", "kaganga": "ꤰꤵꤰꤸ" }
+      }
+    },
+    {
+      "id": "018",
+      "indonesia": "tujuh",
+      "kategori": "angka",
+      "dialek": {
+        "lebong": { "kata": "tujoh", "ipa": "tujoh", "kaganga": "ꤳꥈꤺꥋ꤁" },
+        "rejang_lebong": { "kata": "tujoh", "ipa": "tujoh", "kaganga": "ꤳꥈꤺꥋ꤁" },
+        "kepahiang": { "kata": "tujoh", "ipa": "tujoh", "kaganga": "ꤳꥈꤺꥋ꤁" },
+        "bengkulu_utara": { "kata": "tujuh", "ipa": "tujuh", "kaganga": "ꤳꥈꤺꥈ꤁" },
+        "bengkulu_tengah": { "kata": "tujoh", "ipa": "tujoh", "kaganga": "ꤳꥈꤺꥋ꤁" }
+      }
+    },
+    {
+      "id": "019",
+      "indonesia": "delapan",
+      "kategori": "angka",
+      "dialek": {
+        "lebong": { "kata": "delapan", "ipa": "dəlapan", "kaganga": "ꤴꤾꤶꤵ" },
+        "rejang_lebong": { "kata": "delapan", "ipa": "dəlapan", "kaganga": "ꤴꤾꤶꤵ" },
+        "kepahiang": { "kata": "delapan", "ipa": "dəlapan", "kaganga": "ꤴꤾꤶꤵ" },
+        "bengkulu_utara": { "kata": "delapan", "ipa": "dəlapan", "kaganga": "ꤴꤾꤶꤵ" },
+        "bengkulu_tengah": { "kata": "delapan", "ipa": "dəlapan", "kaganga": "ꤴꤾꤶꤵ" }
+      }
+    },
+    {
+      "id": "020",
+      "indonesia": "sembilan",
+      "kategori": "angka",
+      "dialek": {
+        "lebong": { "kata": "sebo'", "ipa": "səboʔ", "kaganga": "ꤼꤷꥋꤰ" },
+        "rejang_lebong": { "kata": "sebo'", "ipa": "səboʔ", "kaganga": "ꤼꤷꥋꤰ" },
+        "kepahiang": { "kata": "sebo'", "ipa": "səboʔ", "kaganga": "ꤼꤷꥋꤰ" },
+        "bengkulu_utara": { "kata": "sebo'", "ipa": "səboʔ", "kaganga": "ꤼꤷꥋꤰ" },
+        "bengkulu_tengah": { "kata": "sebo", "ipa": "səbo", "kaganga": "ꤼꤷꥋ" }
+      }
+    },
+    {
+      "id": "021",
+      "indonesia": "sepuluh",
+      "kategori": "angka",
+      "dialek": {
+        "lebong": { "kata": "sepuloh", "ipa": "səpuloh", "kaganga": "ꤼꤶꥈꤾꥋ꤁" },
+        "rejang_lebong": { "kata": "sepuloh", "ipa": "səpuloh", "kaganga": "ꤼꤶꥈꤾꥋ꤁" },
+        "kepahiang": { "kata": "sepuloh", "ipa": "səpuloh", "kaganga": "ꤼꤶꥈꤾꥋ꤁" },
+        "bengkulu_utara": { "kata": "sepuluh", "ipa": "səpuluh", "kaganga": "ꤼꤶꥈꤾꥈ꤁" },
+        "bengkulu_tengah": { "kata": "sepuloh", "ipa": "səpuloh", "kaganga": "ꤼꤶꥈꤾꥋ꤁" }
+      }
+    },
+    {
+      "id": "022",
+      "indonesia": "saya / aku",
+      "kategori": "kata_ganti",
+      "dialek": {
+        "lebong": { "kata": "uku", "ipa": "uku", "kaganga": "ꤰꥈꤰꥈ" },
+        "rejang_lebong": { "kata": "uku", "ipa": "uku", "kaganga": "ꤰꥈꤰꥈ" },
+        "kepahiang": { "kata": "uku", "ipa": "uku", "kaganga": "ꤰꥈꤰꥈ" },
+        "bengkulu_utara": { "kata": "uku", "ipa": "uku", "kaganga": "ꤰꥈꤰꥈ" },
+        "bengkulu_tengah": { "kata": "uku", "ipa": "uku", "kaganga": "ꤰꥈꤰꥈ" }
+      }
+    },
+    {
+      "id": "023",
+      "indonesia": "kamu / kau",
+      "kategori": "kata_ganti",
+      "dialek": {
+        "lebong": { "kata": "kite", "ipa": "kite", "kaganga": "ꤰꥇꤳ" },
+        "rejang_lebong": { "kata": "kite", "ipa": "kite", "kaganga": "ꤰꥇꤳ" },
+        "kepahiang": { "kata": "kite", "ipa": "kite", "kaganga": "ꤰꥇꤳ" },
+        "bengkulu_utara": { "kata": "kite", "ipa": "kite", "kaganga": "ꤰꥇꤳ" },
+        "bengkulu_tengah": { "kata": "kite", "ipa": "kite", "kaganga": "ꤰꥇꤳ" }
+      }
+    },
+    {
+      "id": "024",
+      "indonesia": "dia",
+      "kategori": "kata_ganti",
+      "dialek": {
+        "lebong": { "kata": "bi'ei", "ipa": "biʔei", "kaganga": "ꤷꥇꤰꥊ" },
+        "rejang_lebong": { "kata": "bi'ei", "ipa": "biʔei", "kaganga": "ꤷꥇꤰꥊ" },
+        "kepahiang": { "kata": "bie", "ipa": "bie", "kaganga": "ꤷꥇꤰ" },
+        "bengkulu_utara": { "kata": "bi'ei", "ipa": "biʔei", "kaganga": "ꤷꥇꤰꥊ" },
+        "bengkulu_tengah": { "kata": "bi'ei", "ipa": "biʔei", "kaganga": "ꤷꥇꤰꥊ" }
+      }
+    },
+    {
+      "id": "025",
+      "indonesia": "besar",
+      "kategori": "sifat",
+      "dialek": {
+        "lebong": { "kata": "gedang", "ipa": "gədaŋ", "kaganga": "ꤱꤴꤲ" },
+        "rejang_lebong": { "kata": "gedang", "ipa": "gədaŋ", "kaganga": "ꤱꤴꤲ" },
+        "kepahiang": { "kata": "gedang", "ipa": "gədaŋ", "kaganga": "ꤱꤴꤲ" },
+        "bengkulu_utara": { "kata": "gede", "ipa": "gede", "kaganga": "ꤱꤴ" },
+        "bengkulu_tengah": { "kata": "gedang", "ipa": "gədaŋ", "kaganga": "ꤱꤴꤲ" }
+      }
+    },
+    {
+      "id": "026",
+      "indonesia": "kecil",
+      "kategori": "sifat",
+      "dialek": {
+        "lebong": { "kata": "keci'", "ipa": "kəciʔ", "kaganga": "ꤰꤹꥇꤰ" },
+        "rejang_lebong": { "kata": "keci'", "ipa": "kəciʔ", "kaganga": "ꤰꤹꥇꤰ" },
+        "kepahiang": { "kata": "kecik", "ipa": "kəcik", "kaganga": "ꤰꤹꥇꤰ" },
+        "bengkulu_utara": { "kata": "keci'", "ipa": "kəciʔ", "kaganga": "ꤰꤹꥇꤰ" },
+        "bengkulu_tengah": { "kata": "kecik", "ipa": "kəcik", "kaganga": "ꤰꤹꥇꤰ" }
+      }
+    },
+    {
+      "id": "027",
+      "indonesia": "panas",
+      "kategori": "sifat",
+      "dialek": {
+        "lebong": { "kata": "angat", "ipa": "aŋat", "kaganga": "ꤰꤲꤳ" },
+        "rejang_lebong": { "kata": "angat", "ipa": "aŋat", "kaganga": "ꤰꤲꤳ" },
+        "kepahiang": { "kata": "angat", "ipa": "aŋat", "kaganga": "ꤰꤲꤳ" },
+        "bengkulu_utara": { "kata": "angat", "ipa": "aŋat", "kaganga": "ꤰꤲꤳ" },
+        "bengkulu_tengah": { "kata": "angat", "ipa": "aŋat", "kaganga": "ꤰꤲꤳ" }
+      }
+    },
+    {
+      "id": "028",
+      "indonesia": "dingin",
+      "kategori": "sifat",
+      "dialek": {
+        "lebong": { "kata": "bedien", "ipa": "bədiən", "kaganga": "ꤷꤴꥇꤵ" },
+        "rejang_lebong": { "kata": "bedien", "ipa": "bədiən", "kaganga": "ꤷꤴꥇꤵ" },
+        "kepahiang": { "kata": "bedien", "ipa": "bədiən", "kaganga": "ꤷꤴꥇꤵ" },
+        "bengkulu_utara": { "kata": "besio", "ipa": "bəsio", "kaganga": "ꤷꤼꥇꥋ" },
+        "bengkulu_tengah": { "kata": "bedien", "ipa": "bədiən", "kaganga": "ꤷꤴꥇꤵ" }
+      }
+    },
+    {
+      "id": "029",
+      "indonesia": "matahari",
+      "kategori": "alam",
+      "dialek": {
+        "lebong": { "kata": "mato lem", "ipa": "mato lem", "kaganga": "ꤸꤳꥋ ꤾꤸ" },
+        "rejang_lebong": { "kata": "mato lem", "ipa": "mato lem", "kaganga": "ꤸꤳꥋ ꤾꤸ" },
+        "kepahiang": { "kata": "mato arei", "ipa": "mato arei", "kaganga": "ꤸꤳꥋ ꤰꤽꥊ" },
+        "bengkulu_utara": { "kata": "mato arei", "ipa": "mato arei", "kaganga": "ꤸꤳꥋ ꤰꤽꥊ" },
+        "bengkulu_tengah": { "kata": "mato lem", "ipa": "mato lem", "kaganga": "ꤸꤳꥋ ꤾꤸ" }
+      }
+    },
+    {
+      "id": "030",
+      "indonesia": "bulan",
+      "kategori": "alam",
+      "dialek": {
+        "lebong": { "kata": "bulan", "ipa": "bulan", "kaganga": "ꤷꥈꤾꤵ" },
+        "rejang_lebong": { "kata": "bulan", "ipa": "bulan", "kaganga": "ꤷꥈꤾꤵ" },
+        "kepahiang": { "kata": "bulan", "ipa": "bulan", "kaganga": "ꤷꥈꤾꤵ" },
+        "bengkulu_utara": { "kata": "bulan", "ipa": "bulan", "kaganga": "ꤷꥈꤾꤵ" },
+        "bengkulu_tengah": { "kata": "bulan", "ipa": "bulan", "kaganga": "ꤷꥈꤾꤵ" }
+      }
+    },
+    {
+      "id": "031",
+      "indonesia": "bintang",
+      "kategori": "alam",
+      "dialek": {
+        "lebong": { "kata": "bintang", "ipa": "bintaŋ", "kaganga": "ꤷꥇꤵꤳꤲ" },
+        "rejang_lebong": { "kata": "bintang", "ipa": "bintaŋ", "kaganga": "ꤷꥇꤵꤳꤲ" },
+        "kepahiang": { "kata": "bintang", "ipa": "bintaŋ", "kaganga": "ꤷꥇꤵꤳꤲ" },
+        "bengkulu_utara": { "kata": "bintang", "ipa": "bintaŋ", "kaganga": "ꤷꥇꤵꤳꤲ" },
+        "bengkulu_tengah": { "kata": "bintang", "ipa": "bintaŋ", "kaganga": "ꤷꥇꤵꤳꤲ" }
+      }
+    },
+    {
+      "id": "032",
+      "indonesia": "hutan",
+      "kategori": "alam",
+      "dialek": {
+        "lebong": { "kata": "utan", "ipa": "utan", "kaganga": "ꤰꥈꤳꤵ" },
+        "rejang_lebong": { "kata": "utan", "ipa": "utan", "kaganga": "ꤰꥈꤳꤵ" },
+        "kepahiang": { "kata": "utan", "ipa": "utan", "kaganga": "ꤰꥈꤳꤵ" },
+        "bengkulu_utara": { "kata": "utan", "ipa": "utan", "kaganga": "ꤰꥈꤳꤵ" },
+        "bengkulu_tengah": { "kata": "utan", "ipa": "utan", "kaganga": "ꤰꥈꤳꤵ" }
+      }
+    },
+    {
+      "id": "033",
+      "indonesia": "sawah",
+      "kategori": "alam",
+      "dialek": {
+        "lebong": { "kata": "umo", "ipa": "umo", "kaganga": "ꤰꥈꤸꥋ" },
+        "rejang_lebong": { "kata": "umo", "ipa": "umo", "kaganga": "ꤰꥈꤸꥋ" },
+        "kepahiang": { "kata": "umo", "ipa": "umo", "kaganga": "ꤰꥈꤸꥋ" },
+        "bengkulu_utara": { "kata": "umo", "ipa": "umo", "kaganga": "ꤰꥈꤸꥋ" },
+        "bengkulu_tengah": { "kata": "umo", "ipa": "umo", "kaganga": "ꤰꥈꤸꥋ" }
+      }
+    },
+    {
+      "id": "034",
+      "indonesia": "bagus / indah",
+      "kategori": "sifat",
+      "dialek": {
+        "lebong": { "kata": "lemak", "ipa": "ləmaʔ", "kaganga": "ꤾꤸꤰ" },
+        "rejang_lebong": { "kata": "lemak", "ipa": "ləmaʔ", "kaganga": "ꤾꤸꤰ" },
+        "kepahiang": { "kata": "lemak", "ipa": "ləmaʔ", "kaganga": "ꤾꤸꤰ" },
+        "bengkulu_utara": { "kata": "lemak", "ipa": "ləmaʔ", "kaganga": "ꤾꤸꤰ" },
+        "bengkulu_tengah": { "kata": "lemak", "ipa": "ləmaʔ", "kaganga": "ꤾꤸꤰ" }
+      }
+    },
+    {
+      "id": "035",
+      "indonesia": "terima kasih",
+      "kategori": "ungkapan",
+      "dialek": {
+        "lebong": { "kata": "mo te'", "ipa": "mo teʔ", "kaganga": "ꤸꥋ ꤳꤰ" },
+        "rejang_lebong": { "kata": "mo te'", "ipa": "mo teʔ", "kaganga": "ꤸꥋ ꤳꤰ" },
+        "kepahiang": { "kata": "mo te'", "ipa": "mo teʔ", "kaganga": "ꤸꥋ ꤳꤰ" },
+        "bengkulu_utara": { "kata": "mak asih", "ipa": "mak asih", "kaganga": "ꤸꤰ ꤰꤼꥇ꤁" },
+        "bengkulu_tengah": { "kata": "mo te'", "ipa": "mo teʔ", "kaganga": "ꤸꥋ ꤳꤰ" }
+      }
+    },
+    {
+      "id": "036",
+      "indonesia": "selamat pagi",
+      "kategori": "ungkapan",
+      "dialek": {
+        "lebong": { "kata": "slamat pagi", "ipa": "slamat pagi", "kaganga": "ꤼꤾꤸꤳ ꤶꤱꥇ" },
+        "rejang_lebong": { "kata": "slamat pagi", "ipa": "slamat pagi", "kaganga": "ꤼꤾꤸꤳ ꤶꤱꥇ" },
+        "kepahiang": { "kata": "slamat pagi", "ipa": "slamat pagi", "kaganga": "ꤼꤾꤸꤳ ꤶꤱꥇ" },
+        "bengkulu_utara": { "kata": "slamat pagi", "ipa": "slamat pagi", "kaganga": "ꤼꤾꤸꤳ ꤶꤱꥇ" },
+        "bengkulu_tengah": { "kata": "slamat pagi", "ipa": "slamat pagi", "kaganga": "ꤼꤾꤸꤳ ꤶꤱꥇ" }
+      }
+    },
+    {
+      "id": "037",
+      "indonesia": "tangan",
+      "kategori": "tubuh",
+      "dialek": {
+        "lebong": { "kata": "tangan", "ipa": "taŋan", "kaganga": "ꤳꤲꤵ" },
+        "rejang_lebong": { "kata": "tangan", "ipa": "taŋan", "kaganga": "ꤳꤲꤵ" },
+        "kepahiang": { "kata": "tangan", "ipa": "taŋan", "kaganga": "ꤳꤲꤵ" },
+        "bengkulu_utara": { "kata": "tangan", "ipa": "taŋan", "kaganga": "ꤳꤲꤵ" },
+        "bengkulu_tengah": { "kata": "tangan", "ipa": "taŋan", "kaganga": "ꤳꤲꤵ" }
+      }
+    },
+    {
+      "id": "038",
+      "indonesia": "kaki",
+      "kategori": "tubuh",
+      "dialek": {
+        "lebong": { "kata": "bitis", "ipa": "bitis", "kaganga": "ꤷꥇꤳꥇꤼ" },
+        "rejang_lebong": { "kata": "bitis", "ipa": "bitis", "kaganga": "ꤷꥇꤳꥇꤼ" },
+        "kepahiang": { "kata": "bitis", "ipa": "bitis", "kaganga": "ꤷꥇꤳꥇꤼ" },
+        "bengkulu_utara": { "kata": "bitis", "ipa": "bitis", "kaganga": "ꤷꥇꤳꥇꤼ" },
+        "bengkulu_tengah": { "kata": "bitis", "ipa": "bitis", "kaganga": "ꤷꥇꤳꥇꤼ" }
+      }
+    },
+    {
+      "id": "039",
+      "indonesia": "mata",
+      "kategori": "tubuh",
+      "dialek": {
+        "lebong": { "kata": "mato", "ipa": "mato", "kaganga": "ꤸꤳꥋ" },
+        "rejang_lebong": { "kata": "mato", "ipa": "mato", "kaganga": "ꤸꤳꥋ" },
+        "kepahiang": { "kata": "mato", "ipa": "mato", "kaganga": "ꤸꤳꥋ" },
+        "bengkulu_utara": { "kata": "mato", "ipa": "mato", "kaganga": "ꤸꤳꥋ" },
+        "bengkulu_tengah": { "kata": "mato", "ipa": "mato", "kaganga": "ꤸꤳꥋ" }
+      }
+    },
+    {
+      "id": "040",
+      "indonesia": "kepala",
+      "kategori": "tubuh",
+      "dialek": {
+        "lebong": { "kata": "kepalo", "ipa": "kəpalo", "kaganga": "ꤰꤶꤾꥋ" },
+        "rejang_lebong": { "kata": "kepalo", "ipa": "kəpalo", "kaganga": "ꤰꤶꤾꥋ" },
+        "kepahiang": { "kata": "kepalo", "ipa": "kəpalo", "kaganga": "ꤰꤶꤾꥋ" },
+        "bengkulu_utara": { "kata": "kepalo", "ipa": "kəpalo", "kaganga": "ꤰꤶꤾꥋ" },
+        "bengkulu_tengah": { "kata": "kepalo", "ipa": "kəpalo", "kaganga": "ꤰꤶꤾꥋ" }
+      }
+    }
+  ]
+}

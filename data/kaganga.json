@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "nama": "Huruf Kaganga (Aksara Rejang)",
+    "deskripsi": "Aksara tradisional masyarakat Rejang, Bengkulu. Terdaftar di Unicode blok U+A930–U+A95F",
+    "unicode_block": "U+A930–U+A95F",
+    "referensi": "The Unicode Standard, Chapter 17; Jaspan (1964)"
+  },
+  "konsonan": [
+    { "huruf": "ꤰ", "unicode": "U+A930", "latin": "ka", "ipa": "k", "nama": "Ka", "contoh_kata": "ꤰꥇꤳ (kite = kamu)" },
+    { "huruf": "ꤱ", "unicode": "U+A931", "latin": "ga", "ipa": "ɡ", "nama": "Ga", "contoh_kata": "ꤱꤴꤲ (gedang = besar)" },
+    { "huruf": "ꤲ", "unicode": "U+A932", "latin": "nga", "ipa": "ŋ", "nama": "Nga", "contoh_kata": "ꤲꤵ (ngen = makan)" },
+    { "huruf": "ꤳ", "unicode": "U+A933", "latin": "ta", "ipa": "t", "nama": "Ta", "contoh_kata": "ꤳꤾꥋ (telo = tiga)" },
+    { "huruf": "ꤴ", "unicode": "U+A934", "latin": "da", "ipa": "d", "nama": "Da", "contoh_kata": "ꤴꥈꥊ (duei = dua)" },
+    { "huruf": "ꤵ", "unicode": "U+A935", "latin": "na", "ipa": "n", "nama": "Na", "contoh_kata": "ꤷꥈꤾꤵ (bulan = bulan)" },
+    { "huruf": "ꤶ", "unicode": "U+A936", "latin": "pa", "ipa": "p", "nama": "Pa", "contoh_kata": "ꤷꤰꤶꥇꤰ (bapeak = ayah)" },
+    { "huruf": "ꤷ", "unicode": "U+A937", "latin": "ba", "ipa": "b", "nama": "Ba", "contoh_kata": "ꤷꥈꤾꤵ (bulan = bulan)" },
+    { "huruf": "ꤸ", "unicode": "U+A938", "latin": "ma", "ipa": "m", "nama": "Ma", "contoh_kata": "ꤸꤳꥋ (mato = mata)" },
+    { "huruf": "ꤹ", "unicode": "U+A939", "latin": "ca", "ipa": "tʃ", "nama": "Ca", "contoh_kata": "ꤰꤹꥇꤰ (keci = kecil)" },
+    { "huruf": "ꤺ", "unicode": "U+A93A", "latin": "ja", "ipa": "dʒ", "nama": "Ja", "contoh_kata": "ꤺꥇꤾꥋ (jilo = jelas)" },
+    { "huruf": "ꤻ", "unicode": "U+A93B", "latin": "nya", "ipa": "ɲ", "nama": "Nya", "contoh_kata": "ꤻꤰꤳ (nyakat = naik)" },
+    { "huruf": "ꤼ", "unicode": "U+A93C", "latin": "sa", "ipa": "s", "nama": "Sa", "contoh_kata": "ꤼꤰꥊ (sa'ei = satu)" },
+    { "huruf": "ꤽ", "unicode": "U+A93D", "latin": "ra", "ipa": "r", "nama": "Ra", "contoh_kata": "ꤽꥈꤸꤰ (rumak = rumput)" },
+    { "huruf": "ꤾ", "unicode": "U+A93E", "latin": "la", "ipa": "l", "nama": "La", "contoh_kata": "ꤾꥇꤸꥋ (limo = lima)" },
+    { "huruf": "ꤿ", "unicode": "U+A93F", "latin": "ya", "ipa": "j", "nama": "Ya", "contoh_kata": "ꤿꥊ (yai = nenek)" },
+    { "huruf": "ꥀ", "unicode": "U+A940", "latin": "wa", "ipa": "w", "nama": "Wa", "contoh_kata": "ꥀꤰꥇ (wai = air)" },
+    { "huruf": "ꥁ", "unicode": "U+A941", "latin": "ha", "ipa": "h", "nama": "Ha", "contoh_kata": "ꥁꤰꥇ (hai = hai/halo)" },
+    { "huruf": "ꥂ", "unicode": "U+A942", "latin": "mba", "ipa": "mb", "nama": "Mba", "contoh_kata": "ꥂꤰꤽ (mbar = hambur)" },
+    { "huruf": "ꥃ", "unicode": "U+A943", "latin": "ngga", "ipa": "ŋɡ", "nama": "Ngga", "contoh_kata": "ꥃꤰꥇ (nggai = tidak)" },
+    { "huruf": "ꥄ", "unicode": "U+A944", "latin": "nda", "ipa": "nd", "nama": "Nda", "contoh_kata": "ꥄꤰꤾ (ndal = jatuh)" },
+    { "huruf": "ꥅ", "unicode": "U+A945", "latin": "ndra", "ipa": "ndr", "nama": "Ndra", "contoh_kata": "ꥅꥋꤸ (ndrom = tenggelam)" },
+    { "huruf": "ꥆ", "unicode": "U+A946", "latin": "ngka", "ipa": "ŋk", "nama": "Ngka", "contoh_kata": "ꥆꥇ (ngkai = kakak)" }
+  ],
+  "vokal_diakritik": [
+    { "huruf": "ꥇ", "unicode": "U+A947", "latin": "i", "ipa": "i", "nama": "Tanda Vokal I", "posisi": "di atas konsonan", "contoh": "ꤰꥇ = ki" },
+    { "huruf": "ꥈ", "unicode": "U+A948", "latin": "u", "ipa": "u", "nama": "Tanda Vokal U", "posisi": "di atas konsonan", "contoh": "ꤰꥈ = ku" },
+    { "huruf": "ꥉ", "unicode": "U+A949", "latin": "e", "ipa": "e", "nama": "Tanda Vokal E", "posisi": "di atas konsonan", "contoh": "ꤰꥉ = ke" },
+    { "huruf": "ꥊ", "unicode": "U+A94A", "latin": "ai", "ipa": "ai", "nama": "Tanda Vokal AI", "posisi": "di atas konsonan", "contoh": "ꤰꥊ = kai" },
+    { "huruf": "ꥋ", "unicode": "U+A94B", "latin": "o", "ipa": "o", "nama": "Tanda Vokal O", "posisi": "di atas konsonan", "contoh": "ꤰꥋ = ko" },
+    { "huruf": "ꥌ", "unicode": "U+A94C", "latin": "au", "ipa": "au", "nama": "Tanda Vokal AU", "posisi": "di atas konsonan", "contoh": "ꤰꥌ = kau" },
+    { "huruf": "ꥍ", "unicode": "U+A94D", "latin": "(mati)", "ipa": "◌̈", "nama": "Tanda Virama (Pengakhir)", "posisi": "di atas konsonan", "contoh": "ꤰꥍ = k (mati)" },
+    { "huruf": "ꥎ", "unicode": "U+A94E", "latin": "ea", "ipa": "əa", "nama": "Tanda Vokal EA", "posisi": "di bawah konsonan", "contoh": "ꤰꥎ = kea" },
+    { "huruf": "ꥏ", "unicode": "U+A94F", "latin": "ung", "ipa": "uŋ", "nama": "Tanda Vokal UNG", "posisi": "di bawah konsonan", "contoh": "ꤰꥏ = kung" }
+  ],
+  "tanda_baca": [
+    { "huruf": "꤀", "unicode": "U+A900", "nama": "Angka 0", "keterangan": "Angka Rejang nol" },
+    { "huruf": "꤁", "unicode": "U+A901", "nama": "Angka 1", "keterangan": "Angka Rejang satu" },
+    { "huruf": "꤂", "unicode": "U+A902", "nama": "Angka 2", "keterangan": "Angka Rejang dua" },
+    { "huruf": "꤃", "unicode": "U+A903", "nama": "Angka 3", "keterangan": "Angka Rejang tiga" },
+    { "huruf": "꤄", "unicode": "U+A904", "nama": "Angka 4", "keterangan": "Angka Rejang empat" },
+    { "huruf": "꤅", "unicode": "U+A905", "nama": "Angka 5", "keterangan": "Angka Rejang lima" },
+    { "huruf": "꤆", "unicode": "U+A906", "nama": "Angka 6", "keterangan": "Angka Rejang enam" },
+    { "huruf": "꤇", "unicode": "U+A907", "nama": "Angka 7", "keterangan": "Angka Rejang tujuh" },
+    { "huruf": "꤈", "unicode": "U+A908", "nama": "Angka 8", "keterangan": "Angka Rejang delapan" },
+    { "huruf": "꤉", "unicode": "U+A909", "nama": "Angka 9", "keterangan": "Angka Rejang sembilan" },
+    { "huruf": "꥟", "unicode": "U+A95F", "nama": "Tanda Titik Rejang", "keterangan": "Tanda baca pemisah kalimat" }
+  ],
+  "catatan_penulisan": {
+    "arah": "kiri ke kanan",
+    "vokal_bawaan": "Setiap konsonan memiliki bunyi vokal 'a' bawaan. Vokal lain ditambahkan sebagai diakritik.",
+    "konsonan_mati": "Konsonan tanpa vokal menggunakan tanda virama (ꥍ) atau berdiri sebagai sukukata akhir",
+    "font_disarankan": ["Noto Sans Rejang", "Rejang Land"],
+    "unicode_range": "U+A930–U+A95F (konsonan), U+A947–U+A94F (vokal)"
+  }
+}
